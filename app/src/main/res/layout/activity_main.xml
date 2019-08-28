@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/p2"
+    android:gravity="center"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-130dp"
+        android:text="Today"
+        android:textColor="#fff"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:id="@+id/citytext"
+        android:textSize="40sp"
+        android:text="Tehran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:textSize="42sp"
+        android:text="12 C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:layout_marginRight="150dp"
+        android:text="Wind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:layout_marginRight="150dp"
+        android:text="cloud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:layout_marginRight="150dp"
+        android:text="pressure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:layout_marginRight="150dp"
+        android:text="humidity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+<Button
+    android:id="@+id/btnForcase"
+    android:layout_marginTop="20dp"
+    android:text="Forcase"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+
+</LinearLayout>
