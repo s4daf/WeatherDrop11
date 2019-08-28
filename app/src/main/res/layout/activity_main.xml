@@ -14,7 +14,7 @@
         android:layout_height="wrap_content">
 
     <TextView
-
+android:id="@+id/txtday"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="-0dp"
@@ -27,64 +27,111 @@
         android:layout_marginTop="40dp"
         android:textStyle="bold"
         android:textColor="#fff"
-        android:id="@+id/citytext"
-        android:textSize="40sp"
-        android:text="Tehran"
+        android:id="@+id/txtcity"
+        android:textSize="30sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
 
-    <TextView
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:id="@+id/txtweather"
+            android:textSize="40sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textStyle="italic"
+            android:text="light rain and snow"
+            android:layout_marginTop="20dp"
+            android:textColor="#fff"
+            android:id="@+id/txtDescription"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+
+
+
+
+
+        <TextView
+            android:text="99.9 C"
+        android:id="@+id/txtMainTemp"
         android:textColor="#fff"
-        android:textStyle="bold"
         android:layout_marginTop="40dp"
-        android:textSize="42sp"
-        android:text="12 C"
+        android:textSize="30sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
     <TextView
+        android:id="@+id/txtmaxTemp"
         android:layout_marginTop="20dp"
         android:textStyle="italic"
         android:textColor="#fff"
         android:textSize="20sp"
         android:layout_marginRight="150dp"
-        android:text="Wind"
+        android:text="max : 99.9 C"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
 
     <TextView
+        android:id="@+id/txtminTemp"
         android:layout_marginTop="20dp"
         android:textStyle="italic"
         android:textColor="#fff"
         android:textSize="20sp"
         android:layout_marginRight="150dp"
-        android:text="cloud"
+        android:text="min : 99.9 C"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
 
     <TextView
+        android:id="@+id/txtWindSpeed"
         android:layout_marginTop="20dp"
         android:textStyle="italic"
         android:textColor="#fff"
         android:textSize="20sp"
         android:layout_marginRight="150dp"
-        android:text="pressure"
+        android:text="wind Speed"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
 
     <TextView
+        android:id="@+id/txtsunrise"
         android:layout_marginTop="20dp"
         android:textStyle="italic"
         android:textColor="#fff"
         android:textSize="20sp"
         android:layout_marginRight="150dp"
-        android:text="humidity"
+        android:text="sunrise"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+
+
+
+        <TextView
+            android:id="@+id/txtsunset"
+            android:layout_marginTop="20dp"
+            android:textStyle="italic"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_marginRight="150dp"
+            android:text="sunset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+
 
 
 <Button
