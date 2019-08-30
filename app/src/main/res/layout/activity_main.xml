@@ -45,7 +45,7 @@ android:id="@+id/txtday"
 
         <TextView
             android:textStyle="italic"
-            android:text="light rain and snow"
+            android:text=""
             android:layout_marginTop="20dp"
             android:textColor="#fff"
             android:id="@+id/txtDescription"
@@ -56,12 +56,8 @@ android:id="@+id/txtday"
 
 
 
-
-
-
-
         <TextView
-            android:text="99.9 C"
+            android:text=""
         android:id="@+id/txtMainTemp"
         android:textColor="#fff"
         android:layout_marginTop="40dp"
@@ -76,7 +72,7 @@ android:id="@+id/txtday"
         android:textColor="#fff"
         android:textSize="20sp"
         android:layout_marginRight="150dp"
-        android:text="max : 99.9 C"
+        android:text="max :"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
@@ -88,7 +84,7 @@ android:id="@+id/txtday"
         android:textColor="#fff"
         android:textSize="20sp"
         android:layout_marginRight="150dp"
-        android:text="min : 99.9 C"
+        android:text="min : "
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
@@ -128,8 +124,6 @@ android:id="@+id/txtday"
             android:text="sunset"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
-
-
 
 
 

@@ -3,6 +3,7 @@ package com.c.weatherdrop.weatherclass;
 
 public class Main {
 
+
     @SerializedName("temp")
     @Expose
     private Double temp;
